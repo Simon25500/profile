@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Lobster|Roboto:400,700&display=swap');
 
+
+@media (max-width: 750px) {
+  /* For a screen < 960px, this CSS will be read */
+  .flex {
+  align-items:center;
+  flex-direction: column;
+  }
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -54,6 +63,11 @@ li{
 }
 
 .flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex_card{
   display: flex;
   justify-content: space-around;
 }
