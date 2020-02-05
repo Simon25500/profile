@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Lobster|Roboto:400,700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#000 20%, #5beaa9);
+}
+
+h1{
+  font-size: 6em;
+  color: #5beaa9;
+  text-align: center;
+  margin-bottom: 140px;
+  font-family: 'Cabin', sans-serif;
+
+}
+
+h2{
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+  color: #5beaa9;
+}
+
+h3{
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  font-size: 1.7em;
+}
+
+.header_link{
+  color:#fff;
+  text-decoration:none;
+  font-family: 'Cabin', sans-serif;
+}
+
+.footer_link{
+  color:#000;
+  text-decoration:none;
+  font-family: 'Cabin', sans-serif;
+}
+
+ul{
+  list-style: none;
+  width: auto;
+}
+
+li{
+  font-size: 2em;
+  text-align:center;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+#header{
+  justify-content: space-around;
+  border-top: solid 3px #17161a;
+  border-bottom: solid 3px #17161a;
+  color: #fff;
+  margin-bottom: 140px;
+}
+
+#img-circle{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.text_inline{
+  width: 200px;
+}
+
+#box-flex{
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+#hobbies{
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box{
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+}
+.box_reduc{
+  width: 350px;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+
+.img{
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+}
+
+.logo{
+  height: 150px;
+  width: 150px;
+}
+
+.logo:hover{
+  height: 180px;
+  width: 180px;
+}
+
